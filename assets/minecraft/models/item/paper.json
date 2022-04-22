@@ -1,0 +1,62 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "item/custom/gem_machine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "item/custom/floating_gem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300000
+      },
+      "model": "item/custom/gem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "item/custom/spawner/spawner_fragment"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "item/custom/spawner/soul/skeleton"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "item/custom/spawner/soul/zombie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "item/custom/spawner/soul/spider"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "item/custom/spawner/soul/cave_spider"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "item/custom/spawner/soul/blaze"
+    }
+  ]
+}

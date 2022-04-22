@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_leggings",
+    "layer1": "minecraft:item/leather_leggings_overlay"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100002
+      },
+      "model": "item/custom/armor/copper_leggings"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100006
+      },
+      "model": "item/custom/armor/emerald_leggings"
+    }
+  ]
+}

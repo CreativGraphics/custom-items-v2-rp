@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 600001
+      },
+      "model": "item/custom/tools/emerald_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 800005
+      },
+      "model": "item/custom/tools/diamond_hammer"
+    }
+    ,
+    {
+      "predicate": {
+        "custom_model_data": 800006
+      },
+      "model": "item/custom/tools/emerald_hammer"
+    }
+  ]
+}

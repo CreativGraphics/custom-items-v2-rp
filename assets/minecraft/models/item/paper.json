@@ -6,6 +6,12 @@
   "overrides": [
     {
       "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/custom/empty"
+    },
+    {
+      "predicate": {
         "custom_model_data": 10000
       },
       "model": "item/custom/gem_machine"

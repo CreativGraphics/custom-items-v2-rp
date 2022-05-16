@@ -1,14 +1,20 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/diamond_sword"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 600004
-      },
-      "model": "item/custom/tools/emerald_sword"
-    }
-  ]
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/diamond_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 600004
+            },
+            "model": "item/custom/tools/emerald_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 900001
+            },
+            "model": "item/custom/spear"
+        }
+    ]
 }
